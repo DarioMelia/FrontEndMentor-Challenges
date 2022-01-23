@@ -25,15 +25,24 @@ button{
 
 
 /* ^^^^^^^^^ SARA ^^^^^^^^^^^^ */
+.display-info__text h3,
+.display-info__text button,
+.dis-inf__imgTxt__txt h3{
+    font-family: 'Fraunces', serif;
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
 
 .display-info__img img{
     width: 100%;
 }
 .display-info__text{
-    font-family: 'Fraunces', serif;
+    
     padding: 4em 2.2em;
 }
-.display-info__text > *{
+.display-info__text > *,
+.dis-inf__imgTxt__txt > *{
     text-align: center;
 }
 
@@ -44,7 +53,6 @@ button{
 }
 
 .display-info__text p{
-    font-family: 'Barlow', sans-serif;
     font-size: 1.15rem;
     margin: 1.5rem 0;
     color: var(--dark-grayish-blue);
@@ -57,7 +65,6 @@ button{
     justify-content: center;
 }
 .display-info__text button{
-    font-family:'Fraunces', serif;
     font-weight: 900;
     font-size: 1.1rem;
     color: var(--dark-blue);
@@ -84,6 +91,40 @@ button{
 }
 .display-info__text.red-active button:after{
     background: var(--soft-red);
+}
+
+
+
+.display-info__imgTxt{
+    position:relative;
+    margin-bottom: -3px;
+}
+.display-info__imgTxt img{
+    width: 100%;
+}
+.dis-inf__imgTxt__txt{
+    position: absolute;
+    bottom:0;
+    padding: 4rem 1.3rem;
+}
+
+.cherry-img .dis-inf__imgTxt__txt{
+    color:var(--graphic-design-text);
+}
+.orange-img .dis-inf__imgTxt__txt{
+    color: var(--photography-text);
+}
+
+.dis-inf__imgTxt__txt h3{
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+    font-weight: 900;
+}
+
+.dis-inf__imgTxt__txt p{
+    line-height: 1.5;
+    font-weight: 700;
+    opacity:.92;
 }
 
 
