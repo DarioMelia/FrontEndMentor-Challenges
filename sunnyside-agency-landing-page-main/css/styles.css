@@ -7,6 +7,9 @@ button{
     border:none;
     background:none;
 }
+img{
+    display:block;
+}
 :root{
     --soft-red: hsl(7, 99%, 70%);
     --yellow: hsl(51, 100%, 49%);
@@ -97,7 +100,6 @@ body{
 
 .display-info__imgTxt{
     position:relative;
-    margin-bottom: -3px;
 }
 .display-info__imgTxt img{
     width: 100%;
